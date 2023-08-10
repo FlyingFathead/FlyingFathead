@@ -8,7 +8,9 @@
 
 My popular AI apps include i.e. ChatKeke (available in Finland only): [chatkeke.fi](https://chatkeke.fi)
 
-Some of my AI and tech-related articles & essays: [medium.com/@flyingfathead](https://medium.com/@flyingfathead/)
+Some of my AI and tech-related articles & essays:
+[medium.com/@flying](https://medium.com/@flyingfathead/)
+[Substack](https://harryhorsperg.substack.com/)
 
 (mail: flyingfathead <|> protonmail <|> com)
 
