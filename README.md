@@ -6,11 +6,12 @@
 - 💞️ I’m looking to collaborate on watching pain dry.
 - 📫 How to reach me ... by smoke signals from the server room.
 
-My popular AI apps include i.e. ChatKeke (available in Finland only): [chatkeke.fi](https://chatkeke.fi)
+My popular AI apps include:
+- ChatKeke (available in Finland only): [chatkeke.fi](https://chatkeke.fi)
 
 Some of my AI and tech-related articles & essays:
-[medium.com/@flying](https://medium.com/@flyingfathead/)
-[Substack](https://harryhorsperg.substack.com/)
+- [medium.com/@flyingfathead](https://medium.com/@flyingfathead/)
+- [Substack](https://harryhorsperg.substack.com/)
 
 (mail: flyingfathead <|> protonmail <|> com)
 
