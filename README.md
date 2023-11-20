@@ -12,6 +12,7 @@ My popular AI apps include:
 Some of my AI and tech-related articles & essays:
 - [medium.com/@flyingfathead](https://medium.com/@flyingfathead/)
 - [Substack](https://harryhorsperg.substack.com/)
+- [Twitter/X](https://twitter.com/horsperg)
 
 (mail: flyingfathead <|> protonmail <|> com)
 
