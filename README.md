@@ -14,7 +14,7 @@ Some of my AI and tech-related articles & essays:
 - [Substack](https://harryhorsperg.substack.com/)
 - [Twitter/X](https://twitter.com/horsperg)
 
-(mail: flyingfathead <|> protonmail <|> com)
+(mail: `flyingfathead@protonmail.com`)
 
 <!---
 FlyingFathead/FlyingFathead is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
