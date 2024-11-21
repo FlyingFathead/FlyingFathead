@@ -11,12 +11,13 @@ My popular AI apps include:
   - [chatkeke.fi](https://chatkeke.fi) (web version; available inside Finland only)
   - [ChatKeke on Discord](https://skrolli.fi/lukijakanavat/)
       (=> `#chatkeke`, courtesy of [Skrolli Magazine](https://skrolli.fi))
-- See my repos i.e. below and from the [Repositories](https://github.com/FlyingFathead?tab=repositories) tab
+- See my repos below and my [Repositories tab](https://github.com/FlyingFathead?tab=repositories) for more
 
-Some of my AI and tech-related articles & essays:
+My AI and tech-related articles & essays:
 - [medium.com/@flyingfathead](https://medium.com/@flyingfathead/)
 - [Substack](https://harryhorsperg.substack.com/)
 - [Twitter/X](https://twitter.com/horsperg)
+- More have been publish in i.e. [Skrolli Magazine](https://skrolli.fi) (Finnish only)
 
 (mail: `flyingfathead@protonmail.com`)
 
