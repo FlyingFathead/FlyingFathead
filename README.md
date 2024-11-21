@@ -7,7 +7,10 @@
 - 📫 How to reach me ... by smoke signals from the server room.
 
 My popular AI apps include:
-- ChatKeke (available in Finland only): [chatkeke.fi](https://chatkeke.fi)
+- **ChatKeke**
+  - [chatkeke.fi](https://chatkeke.fi) (available in Finland only)
+  - [Discord](https://skrolli.fi/lukijakanavat/) (channel `#chatkeke`, courtesy of [Skrolli Magazine](https://skrolli.fi)
+- See my repos i.e. below and from the [Repositories](https://github.com/FlyingFathead?tab=repositories) tab
 
 Some of my AI and tech-related articles & essays:
 - [medium.com/@flyingfathead](https://medium.com/@flyingfathead/)
