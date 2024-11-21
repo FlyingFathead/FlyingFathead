@@ -17,7 +17,7 @@ My AI and tech-related articles & essays:
 - [medium.com/@flyingfathead](https://medium.com/@flyingfathead/)
 - [Substack](https://harryhorsperg.substack.com/)
 - [Twitter/X](https://twitter.com/horsperg)
-- More have been publish in i.e. [Skrolli Magazine](https://skrolli.fi) (Finnish only)
+- More articles can be found i.e. from [Skrolli Magazine](https://skrolli.fi) (Finnish only)
 
 (mail: `flyingfathead@protonmail.com`)
 
