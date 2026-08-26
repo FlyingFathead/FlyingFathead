@@ -12,13 +12,13 @@
 
 AI/ML developer, sysadmin, audiovisual tinkerer and technical writer.
 
-I have been building the Finnish **FennoGPT** language model since 2020 and founded the **ChatKeke** framework in 2023. AI and neural-network work remain central to what I do. I also build retrocomputing tools, statistical simulations, audiovisual software, game and graphics experiments, server automation and whatever other technical stuff comes along.
+I have been building the Finnish **FennoGPT** language model since 2020 and founded the **ChatKeke** framework in 2023. AI and neural-network work are central to my field, but I also build retrocomputing tools, statistical simulations, audiovisual software, game and graphics experiments, server automation and whatever other technical stuff comes along.
 
-Python is my usual go-to, with Bash, 6502/6510 assembly, JavaScript and assorted lower-level debris appearing as required.
+Python is my usual go-to, with Bash, 6502/6510 assembly, JavaScript and other assorted lower-level debris as required.
 
 ## ChatKeke
 
-**ChatKeke** is my multi-model, multi-API and RAG-enabled AI assistant framework. It combines conversational models with real-time information retrieval, speech-to-text, reminders, geolocation, weather, navigation, search and many other tools and functionalities.
+**ChatKeke** is my multi-model, multi-API and RAG-enabled AI assistant framework, in service since ~2023. It combines conversational models with real-time information retrieval, speech-to-text, reminders, geolocation, weather, navigation, search and many other tools and functionalities.
 
 - [chatkeke.fi](https://chatkeke.fi) (web version; available inside Finland only)
 - [ChatKeke on Telegram](https://t.me/ChatKekeBot)
