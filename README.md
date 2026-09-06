@@ -43,7 +43,6 @@ This is a curated selection. [Browse all repositories here.](https://github.com/
 | **[Mortality Roulette](https://github.com/FlyingFathead/mortality-roulette)** | Statistical mortality simulator and random life-path generator built around official population life-table and cause-of-death data. It is an educational and entertainment simulation, not an individualized prognosis system. |
 | **[cassette-calibrator](https://github.com/FlyingFathead/cassette-calibrator)** | CLI-first cassette and signal-chain measurement toolkit with generated reference audio, DTMF markers, drift compensation, ESS response analysis and an optional local WebUI. |
 | **[rust-linuxgsm-watchdog](https://github.com/FlyingFathead/rust-linuxgsm-watchdog)** | LinuxGSM watchdog for Rust game servers, with health checks, recovery, server and mod updates, wipe handling, optional Smooth Restarter integration and Telegram alerts. |
-| **[Cube Libre](https://github.com/FlyingFathead/cube-libre-pygame)** | Experimental Pygame/OpenGL survival-puzzle prototype in which the player is a destructible cube-body navigating rotating laser mazes. Weirdness and deliberate hostility included. |
 
 ### AI and machine learning systems
 
@@ -63,10 +62,17 @@ This is a curated selection. [Browse all repositories here.](https://github.com/
 | **[Huuda](https://github.com/FlyingFathead/huuda)** | Finnish command-line text-to-speech utility with the questionable additional ability to pronounce English through Finnish phonetics. |
 | **[youwhisper-cli](https://github.com/FlyingFathead/youwhisper-cli)** | Single-command `yt-dlp` plus Whisper/WhisperX transcription pipeline for producing plaintext and subtitles from online media. |
 
+### Games
+
+| Project | What it does |
+| --- | --- |
+| **[Cube Libre: web version](https://github.com/FlyingFathead/cube-libre)** | Browser-based JavaScript/WebGL survival-puzzle game. Guide 125 destructible mini-cubes through rotating laser mazes as time, entropy and heat tighten the rules. Re-couple whatever you can recover. Keyboard and analog controller support. **[Play it here](https://flyingfathead.github.io/cube-libre/)**; no installation needed. |
+| **[Cube Libre: PyGame original](https://github.com/FlyingFathead/cube-libre-pygame)** | Original desktop PyGame/OpenGL survival-puzzle game and the starting point for the web version. A destructible cube-body navigates rotating laser mazes. Weirdness and deliberate hostility included. |
+| **[Ace of Spades Web Slots](https://github.com/FlyingFathead/aceofspades-slots)** | Tiny and loud browser slot-machine tribute with reel locks, jackpots and old-schoolish noise. **[Play it here.](https://flyingfathead.github.io/aceofspades-slots/)** |
+
 ### Smaller experiments and other oddities
 
 - **[RiemannHypothesis](https://github.com/FlyingFathead/RiemannHypothesis)**: numerical scanner and exploratory tools for zeros of the Riemann zeta function. This is empirical computation, not a claimed proof, because I have not completely lost contact with the Earth.
-- **[Ace of Spades Web Slots](https://github.com/FlyingFathead/aceofspades-slots)**: tiny and loud browser slot-machine tribute with reel locks, jackpots and old-schoolish noise. [Play it here.](https://flyingfathead.github.io/aceofspades-slots/)
 - **[gpt2-tensorflow-to-pytorch-converter](https://github.com/FlyingFathead/gpt2-tensorflow-to-pytorch-converter)**: converts TensorFlow-based GPT-2 model checkpoints into PyTorch format.
 - **[neurograph-cli](https://github.com/FlyingFathead/neurograph-cli)**: terminal graph plotter for monitoring TensorFlow and GPT-2 training runs on local or remote machines.
 - **Translation tools**: [PDF-translator-OpenAI-API](https://github.com/FlyingFathead/PDF-translator-OpenAI-API) and [srt-translate-OpenAI-API](https://github.com/FlyingFathead/srt-translate-OpenAI-API).
