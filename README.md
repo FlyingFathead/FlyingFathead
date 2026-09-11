@@ -10,11 +10,11 @@
 
 ## Harry Horsperg
 
-AI/ML developer, sysadmin, audiovisual tinkerer and technical writer.
+AI/ML developer, sysadmin, audiovisual tinkerer, retrocomputing enthusiast and technical writer.
 
-I have been building the Finnish **FennoGPT** language model since 2020 and founded the **ChatKeke** framework in 2023. AI and neural-network work are central to my field, but I also build retrocomputing tools, statistical simulations, audiovisual software, game and graphics experiments, server automation and whatever other technical stuff comes along.
+I have been building the Finnish **FennoGPT** language model since 2020 and founded the **ChatKeke** framework in 2023. AI and neural-network work are central to my field, but I also build retrocomputing tools, statistical simulations, audiovisual software, games, graphics experiments, server automation and whatever other technical debris happens to accumulate.
 
-Python is my usual go-to, with Bash, 6502/6510 assembly, JavaScript and other assorted lower-level debris as required.
+Python is my usual go-to, with Bash, 6502/6510 assembly, JavaScript and assorted lower-level machinery as required.
 
 ## ChatKeke
 
@@ -30,11 +30,27 @@ Python is my usual go-to, with Bash, 6502/6510 assembly, JavaScript and other as
 
 This is a curated selection. [Browse all repositories here.](https://github.com/FlyingFathead?tab=repositories)
 
-### Latest project: c64-3d-toolkit
+### Latest project: SIDpulse Tracker
+
+**[SIDpulse Tracker](https://github.com/FlyingFathead/sidpulse-tracker)** is a modern Python/pygame-ce music tracker for the Commodore 64 SID, inspired by the workflow, keyboard feel and pattern-editing philosophy of **Impulse Tracker** and **Schism Tracker**.
+
+Rather than treating the SID as an afterthought bolted onto a generic sample tracker, SIDpulse is being built around the actual capabilities of the **MOS 6581/8580**: three hardware voices, ADSR envelopes, pulse-width control, waveforms, filters, synchronization, ring modulation and tracker-style macros.
+
+The project uses its own editable **`.sidpulse`** format and supports compilation/export toward real C64 playback, including **PSID `.sid`** and **`.prg`** output.
+
+The goal is simple enough to state and annoyingly difficult to implement:
+
+> Preserve Impulse Tracker / Schism Tracker muscle memory while making the SID the actual synthesizer underneath.
+
+### c64-3d-toolkit
 
 [![c64-3d-toolkit banner](https://raw.githubusercontent.com/FlyingFathead/c64-3d-toolkit/main/assets/c64-3d-toolkit_banner.png)](https://github.com/FlyingFathead/c64-3d-toolkit)
 
-**[c64-3d-toolkit](https://github.com/FlyingFathead/c64-3d-toolkit)** is a host-assisted low-poly wireframe 3D compiler and runtime for a stock Commodore 64. It imports OBJ and SVG geometry, preprocesses visibility and animation data on a modern host, generates 6502/6510 assembly, and builds runnable C64 `.prg` programs. The command-line pipeline is the primary interface; procedural meshes, prebuilt examples and VICE integration are included.
+**[c64-3d-toolkit](https://github.com/FlyingFathead/c64-3d-toolkit)** is a host-assisted low-poly wireframe 3D compiler and runtime for a stock Commodore 64. It imports OBJ and SVG geometry, preprocesses visibility and animation data on a modern host, generates 6502/6510 assembly and builds runnable C64 programs and cartridge images.
+
+The command-line pipeline is the primary interface. Procedural meshes, Blender-oriented workflows, prebuilt examples, VICE integration and multiple runtime/rendering strategies are included.
+
+The general philosophy is to make the modern machine do the expensive work beforehand so the C64 has less suffering left to perform at runtime.
 
 ### Active systems and experiments
 
@@ -56,6 +72,8 @@ This is a curated selection. [Browse all repositories here.](https://github.com/
 
 | Project | What it does |
 | --- | --- |
+| **[SIDpulse Tracker](https://github.com/FlyingFathead/sidpulse-tracker)** | Modern SID-native Commodore 64 music tracker inspired by Impulse Tracker and Schism Tracker, with `.sidpulse` project files and PSID/PRG export. |
+| **[c64-3d-toolkit](https://github.com/FlyingFathead/c64-3d-toolkit)** | Host-assisted low-poly wireframe 3D compiler/runtime for a stock C64, with OBJ/SVG pipelines, 6502/6510 code generation and runnable demos/cartridges. |
 | **[audio-bitsqueezer](https://github.com/FlyingFathead/audio-bitsqueezer)** | Converts modern audio into C64-friendly 4-bit packed samples, MSSIAH-compatible 8-bit WAV files or self-contained runnable `.prg` programs. |
 | **[catgit](https://github.com/FlyingFathead/catgit)** | Dumps a Git repository or directory tree into a readable consolidated form for inspection, archival or LLM-assisted code review. |
 | **[OCR-CopyPastePad](https://github.com/FlyingFathead/OCR-CopyPastePad)** | Tkinter-based OCR copy-paste pad supporting Tesseract, EasyOCR, screenshots, preprocessing and selectable recognition methods. |
