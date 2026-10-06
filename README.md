@@ -1,4 +1,6 @@
-```HELL                             O WORLD```
+```text
+HELL                             O WORLD
+```
 
 - 👋 Hi, I’m @FlyingFathead
 - 👀 I’m interested in Neural Networks.
@@ -8,13 +10,101 @@
 
 ---
 
-## Harry Horsperg
+# Harry Horsperg
 
 AI/ML developer, sysadmin, audiovisual tinkerer, retrocomputing enthusiast and technical writer.
 
 I have been building the Finnish **FennoGPT** language model since 2020 and founded the **ChatKeke** framework in 2023. AI and neural-network work are central to my field, but I also build retrocomputing tools, statistical simulations, audiovisual software, games, graphics experiments, server automation and whatever other technical debris happens to accumulate.
 
-Python is my usual go-to, with Bash, 6502/6510 assembly, JavaScript and assorted lower-level machinery as required.
+Python is my usual go-to, alongside Bash and JavaScript, with **C and QuakeC** now in the mix through **AmiWind**. The **Commodore 64** and **Commodore Amiga** are particular sources of enthusiasm, from **6502/6510 assembly** on the C64 to **Motorola 68k (m68k) assembly** on the Amiga.
+
+## Featured projects
+
+[**AmiWind**](#amiwind) · [**SIDpulse Tracker**](#sidpulse-tracker) · [**c64-3d-toolkit**](#c64-3d-toolkit)
+
+### AmiWind
+
+<p align="center">
+  <a href="https://github.com/FlyingFathead/amiwind">
+    <img src="https://raw.githubusercontent.com/FlyingFathead/amiwind/main/resources/media/AmiWind_logo_clear_background.png" width="720" alt="AmiWind: a Commodore Amiga demake of Morrowind">
+  </a>
+</p>
+
+**[AmiWind](https://github.com/FlyingFathead/amiwind)** is an experimental **The Elder Scrolls III: Morrowind demake for the Commodore Amiga**, combining a local asset-conversion pipeline with a native Amiga runtime.
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/FlyingFathead/amiwind/blob/main/docs/GAMEPLAY_MEDIA.md">
+        <img src="https://raw.githubusercontent.com/FlyingFathead/amiwind/main/docs/images/amiwind-v0.0.24-balmora-bridge.png" width="320" alt="AmiWind v0.0.24: Balmora bridge, captured in FS-UAE">
+      </a>
+      <br><sub>Balmora bridge · v0.0.24</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/FlyingFathead/amiwind/blob/main/docs/GAMEPLAY_MEDIA.md">
+        <img src="https://raw.githubusercontent.com/FlyingFathead/amiwind/main/docs/images/amiwind-v0.0.28-v3-red-sunset.png" width="320" alt="AmiWind v0.0.28: red sunset over Seyda Neen, captured in WinUAE">
+      </a>
+      <br><sub>Seyda Neen sunset · v0.0.28</sub>
+    </td>
+  </tr>
+</table>
+
+Python host tools convert the original game's maps, textures, models and audio into Amiga-friendly data. The accelerated AGA runtime draws on **Quake/AmiQuake**, with **C and QuakeC** doing their part in this entirely reasonable undertaking.
+
+The growing playable world includes **Seyda Neen and Balmora**, character creation, map and journal interfaces, foliage, day/night skies and torchlight. Much of the original game's gameplay remains unfinished; this is a work in progress, not a complete Morrowind replacement.
+
+**Bring your own Morrowind game data.** Original game assets and Amiga ROMs are not included in the public source package. The screenshots above show the Amiga runtime in emulation.
+
+> The prophecy said nothing about the frame rate.
+
+[**Repository**](https://github.com/FlyingFathead/amiwind) · [Screenshots and day/night gallery](https://github.com/FlyingFathead/amiwind/blob/main/docs/GAMEPLAY_MEDIA.md) · [Releases](https://github.com/FlyingFathead/amiwind/releases)
+
+---
+
+### SIDpulse Tracker
+
+<p align="center">
+  <a href="https://github.com/FlyingFathead/sidpulse-tracker">
+    <img src="https://raw.githubusercontent.com/FlyingFathead/sidpulse-tracker/main/sidpulse/assets/sidpulse-tracker-logo.svg" width="640" alt="SIDpulse Tracker logo">
+  </a>
+</p>
+
+**[SIDpulse Tracker](https://github.com/FlyingFathead/sidpulse-tracker)** is a **Python/pygame-ce desktop music tracker for the Commodore 64 SID**, inspired by the workflow, keyboard feel and pattern-editing philosophy of **Impulse Tracker** and **Schism Tracker**.
+
+<p align="center">
+  <a href="https://github.com/FlyingFathead/sidpulse-tracker">
+    <img src="https://raw.githubusercontent.com/FlyingFathead/sidpulse-tracker/main/docs/media/sidpulse-f5-playback.gif" width="720" alt="SIDpulse Tracker playing Autumn at Five, with all three SID voice scopes">
+  </a>
+  <br><sub>Autumn at Five: F5 playback with all three SID voice scopes.</sub>
+</p>
+
+The SID is the synthesizer, not an afterthought: **three hardware voices**, ADSR envelopes, pulse-width control, waveforms, filters, synchronization, ring modulation and tracker-style tables, with native **6581/8580 emulation** while composing.
+
+Save editable **`.sidpulse`** projects, export **PSID `.sid`** music or runnable **C64 `.prg`** programs, and render tracks to **WAV or MP3**. PCM sample tools and **sample-to-SID wavetable synthesis** are also included.
+
+> Preserve Impulse Tracker / Schism Tracker muscle memory while making the SID the actual synthesizer underneath.
+
+[**Repository**](https://github.com/FlyingFathead/sidpulse-tracker) · [Watch Autumn at Five with audio](https://github.com/FlyingFathead/sidpulse-tracker/blob/main/docs/media/sidpulse-f5-playback-full.mp4) · [Releases](https://github.com/FlyingFathead/sidpulse-tracker/releases)
+
+---
+
+### c64-3d-toolkit
+
+<p align="center">
+  <a href="https://github.com/FlyingFathead/c64-3d-toolkit">
+    <img src="https://raw.githubusercontent.com/FlyingFathead/c64-3d-toolkit/main/assets/c64-3d-toolkit_banner.png" width="640" alt="c64-3d-toolkit: Build modern 3D. Fit it in 64K.">
+  </a>
+</p>
+
+**[c64-3d-toolkit](https://github.com/FlyingFathead/c64-3d-toolkit)** is a host-assisted **3D compiler and runtime for the Commodore 64**, taking OBJ/SVG geometry and Blender-authored scenes from a modern machine to runnable C64 programs and cartridge images.
+
+The host handles geometry processing, animation preparation and hidden-line visibility, then generates **6502/6510 assembly** and precomputed runtime data. The command-line pipeline is the primary interface, with wireframe and shaded output, procedural meshes, VICE integration and multiple rendering strategies.
+
+The general philosophy is to make the modern machine do the expensive work beforehand so the C64 has less suffering left to perform at runtime.
+
+[**Repository**](https://github.com/FlyingFathead/c64-3d-toolkit) · [Examples](https://github.com/FlyingFathead/c64-3d-toolkit/tree/main/examples) · [Releases](https://github.com/FlyingFathead/c64-3d-toolkit/releases)
+
+---
 
 ## ChatKeke
 
@@ -26,31 +116,9 @@ Python is my usual go-to, with Bash, 6502/6510 assembly, JavaScript and assorted
 - [ChatKeke on Discord/Matrix](https://sakulehti.fi/keskustelu) (`#chatkeke`, courtesy of [Saku-lehti](https://sakulehti.fi))
 - Public bot framework: [TelegramBot-OpenAI-API](https://github.com/FlyingFathead/TelegramBot-OpenAI-API)
 
-## Selected projects
+## More projects
 
 This is a curated selection. [Browse all repositories here.](https://github.com/FlyingFathead?tab=repositories)
-
-### Latest project: SIDpulse Tracker
-
-**[SIDpulse Tracker](https://github.com/FlyingFathead/sidpulse-tracker)** is a modern Python/pygame-ce music tracker for the Commodore 64 SID, inspired by the workflow, keyboard feel and pattern-editing philosophy of **Impulse Tracker** and **Schism Tracker**.
-
-Rather than treating the SID as an afterthought bolted onto a generic sample tracker, SIDpulse is being built around the actual capabilities of the **MOS 6581/8580**: three hardware voices, ADSR envelopes, pulse-width control, waveforms, filters, synchronization, ring modulation and tracker-style macros.
-
-The project uses its own editable **`.sidpulse`** format and supports compilation/export toward real C64 playback, including **PSID `.sid`** and **`.prg`** output.
-
-The goal is simple enough to state and annoyingly difficult to implement:
-
-> Preserve Impulse Tracker / Schism Tracker muscle memory while making the SID the actual synthesizer underneath.
-
-### c64-3d-toolkit
-
-[![c64-3d-toolkit banner](https://raw.githubusercontent.com/FlyingFathead/c64-3d-toolkit/main/assets/c64-3d-toolkit_banner.png)](https://github.com/FlyingFathead/c64-3d-toolkit)
-
-**[c64-3d-toolkit](https://github.com/FlyingFathead/c64-3d-toolkit)** is a host-assisted low-poly wireframe 3D compiler and runtime for a stock Commodore 64. It imports OBJ and SVG geometry, preprocesses visibility and animation data on a modern host, generates 6502/6510 assembly and builds runnable C64 programs and cartridge images.
-
-The command-line pipeline is the primary interface. Procedural meshes, Blender-oriented workflows, prebuilt examples, VICE integration and multiple runtime/rendering strategies are included.
-
-The general philosophy is to make the modern machine do the expensive work beforehand so the C64 has less suffering left to perform at runtime.
 
 ### Active systems and experiments
 
@@ -72,8 +140,6 @@ The general philosophy is to make the modern machine do the expensive work befor
 
 | Project | What it does |
 | --- | --- |
-| **[SIDpulse Tracker](https://github.com/FlyingFathead/sidpulse-tracker)** | Modern SID-native Commodore 64 music tracker inspired by Impulse Tracker and Schism Tracker, with `.sidpulse` project files and PSID/PRG export. |
-| **[c64-3d-toolkit](https://github.com/FlyingFathead/c64-3d-toolkit)** | Host-assisted low-poly wireframe 3D compiler/runtime for a stock C64, with OBJ/SVG pipelines, 6502/6510 code generation and runnable demos/cartridges. |
 | **[audio-bitsqueezer](https://github.com/FlyingFathead/audio-bitsqueezer)** | Converts modern audio into C64-friendly 4-bit packed samples, MSSIAH-compatible 8-bit WAV files or self-contained runnable `.prg` programs. |
 | **[catgit](https://github.com/FlyingFathead/catgit)** | Dumps a Git repository or directory tree into a readable consolidated form for inspection, archival or LLM-assisted code review. |
 | **[OCR-CopyPastePad](https://github.com/FlyingFathead/OCR-CopyPastePad)** | Tkinter-based OCR copy-paste pad supporting Tesseract, EasyOCR, screenshots, preprocessing and selectable recognition methods. |
