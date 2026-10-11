@@ -26,7 +26,7 @@ Python is my usual go-to, alongside Bash and JavaScript, with **C and QuakeC** n
 
 <p align="center">
   <a href="https://github.com/FlyingFathead/amiwind">
-    <img src="https://raw.githubusercontent.com/FlyingFathead/amiwind/main/resources/media/AmiWind_logo_clear_background.png" width="720" alt="AmiWind: a Commodore Amiga demake of Morrowind">
+    <img src="https://raw.githubusercontent.com/FlyingFathead/amiwind/main/resources/media/AmiWind_logo.png" width="720" alt="AmiWind: a Commodore Amiga demake of Morrowind">
   </a>
 </p>
 
